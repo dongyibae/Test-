@@ -1,0 +1,58 @@
+/* Setup basics CSS */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+@font-face{
+	font-family: 'BeVietNampro'  ;	
+    src:url("../fonts/Be_VietNam_Pro/BeVietnamPro-Regular.ttf");
+}
+@font-face{
+	font-family: 'BeVietNampro';	
+    src:url("../fonts/Be_VietNam_Pro/BeVietnamPro-Bold.ttf");
+    font-weight: bold;
+}
+
+html {
+	font-size: 62.5%; /* 1rem = 10px */
+}
+
+:root {
+	--primary: #56B533;
+	--heading: #080808;
+    --text-banner: #282828;
+	--text-gray: #666666;
+    --text-black: #080808;
+	--input-border: #666666;
+	--input-text: #666666;
+	--bg-light: #f7f7f7;
+	--bg-dark: #F3F3F3;
+}
+
+
+body {
+	font-family: 'BeVietNampro';
+	line-height: 1;
+	font-weight: 400;
+}
+a {
+	text-decoration: underline;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+button {
+	cursor: pointer;
+}
+input,
+textarea,
+button {
+	outline: none;
+	box-shadow: none;
+	font-family: 'BeVietNampro';
+}
